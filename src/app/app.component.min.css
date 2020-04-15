@@ -1,10 +1,12 @@
-*,*::after,*::before{
+*, *::after, *::before {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
-form{
+form {
   max-width: 25em;
   margin: 1em auto;
 }
+
+/*# sourceMappingURL=app.component.min.css.map */

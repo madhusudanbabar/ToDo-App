@@ -7,4 +7,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'ToDo';
+  todoArray = [];
+
+  addTodo(value){
+    if(!this.todoArray.includes(value)){
+    this.todoArray.push(value);
+    console.log(this.todoArray);
+  }
+  }
 }
